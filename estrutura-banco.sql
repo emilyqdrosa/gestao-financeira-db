@@ -1,7 +1,7 @@
 CREATE TABLE pessoa ( 
 	id_pessoa SERIAL PRIMARY KEY,  
 	nome VARCHAR(100) NOT NULL,  
-	saldo INT DEFAULT 0,
+	saldo INT DEFAULT 0
 ); 
 
 SELECT * FROM pessoa;
